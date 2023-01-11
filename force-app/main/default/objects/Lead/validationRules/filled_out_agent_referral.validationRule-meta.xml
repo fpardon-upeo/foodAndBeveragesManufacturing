@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>filled_out_agent_referral</fullName>
+    <active>true</active>
+    <description>If lead source is equal to agent, agent referral field should fill out</description>
+    <errorConditionFormula>AND (    ISPICKVAL( LeadSource, &apos;Agent&apos; ),    ISBLANK( Referring_Agent__c ) )</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>fill out referring agent</errorMessage>
+</ValidationRule>

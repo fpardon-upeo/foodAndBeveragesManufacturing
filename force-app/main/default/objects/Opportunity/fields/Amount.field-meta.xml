@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount</fullName>
+    <inlineHelpText>The amount is calculated automatically based on Quantity in Number of Capsules and Price per Sleeve, or based on the Opportunity Products added to the Opportunity.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+</CustomField>

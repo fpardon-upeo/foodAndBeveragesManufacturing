@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Buyer</fullName>
+        <default>false</default>
+        <label>Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Other</fullName>
+        <default>false</default>
+        <label>Client Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Item Set-up</fullName>
+        <default>false</default>
+        <label>Item Set-up</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <label>IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Packaging</fullName>
+        <default>false</default>
+        <label>Packaging</label>
+    </customValue>
+    <customValue>
+        <fullName>Product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing</fullName>
+        <default>false</default>
+        <label>Purchasing</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchandising</fullName>
+        <default>false</default>
+        <label>Merchandising</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Development</fullName>
+        <default>false</default>
+        <label>Product Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality</fullName>
+        <default>false</default>
+        <label>Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipping</fullName>
+        <default>false</default>
+        <label>Shipping</label>
+    </customValue>
+    <customValue>
+        <fullName>Vendor</fullName>
+        <default>false</default>
+        <label>Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse</fullName>
+        <default>false</default>
+        <label>Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party</fullName>
+        <default>false</default>
+        <label>Third Party</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Department</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expected_Volume_in_Capsules__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The value in this field will be overwritten if you add products to the opportunity</inlineHelpText>
+    <label>Expected Volume in Capsules</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

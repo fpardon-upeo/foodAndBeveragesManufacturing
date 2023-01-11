@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Out of Home refers to on-premise consumption (bars, restaurants, hotels), while Home refers to places that retail for off-premise consumption (supermarkets, shops, online-stores)</inlineHelpText>
+    <label>Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Channel</valueSetName>
+    </valueSet>
+</CustomField>

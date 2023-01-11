@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Home</fullName>
+        <default>false</default>
+        <label>Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of Home</fullName>
+        <default>false</default>
+        <label>Out of Home</label>
+    </customValue>
+    <customValue>
+        <fullName>B2B</fullName>
+        <default>false</default>
+        <label>B2B</label>
+    </customValue>
+    <masterLabel>Channel</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

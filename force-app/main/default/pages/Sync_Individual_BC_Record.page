@@ -1,0 +1,14 @@
+<apex:page standardController="Sync_Error__c" extensions="DetailButtonController" action="{!doSomething}">
+    <script type='text/javascript'>
+        window.onload = showToast();
+        function showToast() {
+            sforce.one.showToast({
+                "title": "Attenzione",
+                "message": "Test Message.",
+                "type": "warning"
+            });
+            
+        }
+        
+    </script>
+</apex:page>

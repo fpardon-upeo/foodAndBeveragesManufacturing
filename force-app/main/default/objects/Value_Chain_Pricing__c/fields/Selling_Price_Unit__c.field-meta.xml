@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Selling_Price_Unit__c</fullName>
+    <externalId>false</externalId>
+    <formula>(((Retail_Selling_Price__c * (1-Opportunity__r.RSP_Promo__c))*(1- Opportunity__r.VAT__c))*(1- Opportunity__r.Retail_Margin__c ))-(1*Opportunity__r.Agent_Distributor_Margin__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Selling Price/Unit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

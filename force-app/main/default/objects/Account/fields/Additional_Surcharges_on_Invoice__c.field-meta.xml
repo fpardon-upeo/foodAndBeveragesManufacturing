@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Surcharges_on_Invoice__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Surcharges on Invoice</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eur1</fullName>
+                <default>false</default>
+                <label>Eur1</label>
+            </value>
+            <value>
+                <fullName>EXA</fullName>
+                <default>false</default>
+                <label>EXA</label>
+            </value>
+            <value>
+                <fullName>Euro pallets</fullName>
+                <default>false</default>
+                <label>Euro pallets</label>
+            </value>
+            <value>
+                <fullName>US pallets</fullName>
+                <default>false</default>
+                <label>US pallets</label>
+            </value>
+            <value>
+                <fullName>FITO certificate</fullName>
+                <default>false</default>
+                <label>FITO certificate</label>
+            </value>
+            <value>
+                <fullName>Health certificate</fullName>
+                <default>false</default>
+                <label>Health certificate</label>
+            </value>
+            <value>
+                <fullName>Certificate of origin (digital or paper)</fullName>
+                <default>false</default>
+                <label>Certificate of origin (digital or paper)</label>
+            </value>
+            <value>
+                <fullName>Duplicaat COO</fullName>
+                <default>false</default>
+                <label>Duplicaat COO</label>
+            </value>
+            <value>
+                <fullName>Registration certificate</fullName>
+                <default>false</default>
+                <label>Registration certificate</label>
+            </value>
+            <value>
+                <fullName>NAQS certificate</fullName>
+                <default>false</default>
+                <label>NAQS certificate</label>
+            </value>
+            <value>
+                <fullName>Legalisation of documents / Apostille on certificaat</fullName>
+                <default>false</default>
+                <label>Legalisation of documents / Apostille on certificaat</label>
+            </value>
+            <value>
+                <fullName>VISA (COO stamp) invoice</fullName>
+                <default>false</default>
+                <label>VISA (COO stamp) invoice</label>
+            </value>
+            <value>
+                <fullName>VISA (COO stamp) andere doc</fullName>
+                <default>false</default>
+                <label>VISA (COO stamp) andere doc</label>
+            </value>
+            <value>
+                <fullName>Extra Copy</fullName>
+                <default>false</default>
+                <label>Extra Copy</label>
+            </value>
+            <value>
+                <fullName>ATA carnet (for fairs)</fullName>
+                <default>false</default>
+                <label>ATA carnet (for fairs)</label>
+            </value>
+            <value>
+                <fullName>Euromed document (for Israel)</fullName>
+                <default>false</default>
+                <label>Euromed document (for Israel)</label>
+            </value>
+            <value>
+                <fullName>ATR</fullName>
+                <default>false</default>
+                <label>ATR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

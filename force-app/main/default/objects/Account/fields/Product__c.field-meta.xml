@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Beans</fullName>
+                <default>false</default>
+                <label>Beans</label>
+            </value>
+            <value>
+                <fullName>Belmio</fullName>
+                <default>false</default>
+                <label>Belmio</label>
+            </value>
+            <value>
+                <fullName>Private Label</fullName>
+                <default>false</default>
+                <label>Private Label</label>
+            </value>
+            <value>
+                <fullName>Smart Label</fullName>
+                <default>false</default>
+                <label>Smart Label</label>
+            </value>
+            <value>
+                <fullName>Belmoca</fullName>
+                <default>false</default>
+                <label>Belmoca</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

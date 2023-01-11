@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100% Prepay</fullName>
+                <default>false</default>
+                <label>100% Prepay</label>
+            </value>
+            <value>
+                <fullName>14 days invoice date</fullName>
+                <default>false</default>
+                <label>14 days invoice date</label>
+            </value>
+            <value>
+                <fullName>30 days invoice date</fullName>
+                <default>false</default>
+                <label>30 days invoice date</label>
+            </value>
+            <value>
+                <fullName>2% discount within 30 days invoice date</fullName>
+                <default>false</default>
+                <label>2% discount within 30 days invoice date</label>
+            </value>
+            <value>
+                <fullName>90% prepayment 10% after arrival</fullName>
+                <default>false</default>
+                <label>90% prepayment 10% after arrival</label>
+            </value>
+            <value>
+                <fullName>20% prepayment / balance before delivery</fullName>
+                <default>false</default>
+                <label>20% prepayment / balance before delivery</label>
+            </value>
+            <value>
+                <fullName>15 days invoice date</fullName>
+                <default>false</default>
+                <label>15 days invoice date</label>
+            </value>
+            <value>
+                <fullName>100% prepayment</fullName>
+                <default>false</default>
+                <label>100% prepayment</label>
+            </value>
+            <value>
+                <fullName>3% discount within 15 days invoice date / 60 days without discount</fullName>
+                <default>false</default>
+                <label>3% discount within 15 days invoice date / 60 days without discount</label>
+            </value>
+            <value>
+                <fullName>60 days invoice date</fullName>
+                <default>false</default>
+                <label>60 days invoice date</label>
+            </value>
+            <value>
+                <fullName>3% discount within 60 days invoice date</fullName>
+                <default>false</default>
+                <label>3% discount within 60 days invoice date</label>
+            </value>
+            <value>
+                <fullName>95% prepayment 5% after arrival</fullName>
+                <default>false</default>
+                <label>95% prepayment 5% after arrival</label>
+            </value>
+            <value>
+                <fullName>10 days invoice date</fullName>
+                <default>false</default>
+                <label>10 days invoice date</label>
+            </value>
+            <value>
+                <fullName>1,5% discount within 30 days invoice date</fullName>
+                <default>false</default>
+                <label>1,5% discount within 30 days invoice date</label>
+            </value>
+            <value>
+                <fullName>3% discount within 15 days invoice date</fullName>
+                <default>false</default>
+                <label>3% discount within 15 days invoice date</label>
+            </value>
+            <value>
+                <fullName>30 days (prepaid via reversed factoring)</fullName>
+                <default>false</default>
+                <label>30 days (prepaid via reversed factoring)</label>
+            </value>
+            <value>
+                <fullName>30 days end of month</fullName>
+                <default>false</default>
+                <label>30 days end of month</label>
+            </value>
+            <value>
+                <fullName>50% prepayment / balance 30 days invoice date</fullName>
+                <default>false</default>
+                <label>50% prepayment / balance 30 days invoice date</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>domiciliatie</fullName>
+                <default>false</default>
+                <label>domiciliatie</label>
+            </value>
+            <value>
+                <fullName>End of invoice month</fullName>
+                <default>false</default>
+                <label>End of invoice month</label>
+            </value>
+            <value>
+                <fullName>Free of charge</fullName>
+                <default>false</default>
+                <label>Free of charge</label>
+            </value>
+            <value>
+                <fullName>30% upon order / balance 30 days invoice date</fullName>
+                <default>false</default>
+                <label>30% upon order / balance 30 days invoice date</label>
+            </value>
+            <value>
+                <fullName>7 days invoice date</fullName>
+                <default>false</default>
+                <label>7 days invoice date</label>
+            </value>
+            <value>
+                <fullName>45 days invoice date</fullName>
+                <default>false</default>
+                <label>45 days invoice date</label>
+            </value>
+            <value>
+                <fullName>21 days invoice date</fullName>
+                <default>false</default>
+                <label>21 days invoice date</label>
+            </value>
+            <value>
+                <fullName>2% discount within 45 days invoice date</fullName>
+                <default>false</default>
+                <label>2% discount within 45 days invoice date</label>
+            </value>
+            <value>
+                <fullName>50% prepayment / balance 2 days invoice date</fullName>
+                <default>false</default>
+                <label>50% prepayment / balance 2 days invoice date</label>
+            </value>
+            <value>
+                <fullName>90 days invoice date</fullName>
+                <default>false</default>
+                <label>90 days invoice date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

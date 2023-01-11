@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Method_of_Business_Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Method of Business &amp; Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Made to Order</fullName>
+                <default>false</default>
+                <label>Made to Order</label>
+            </value>
+            <value>
+                <fullName>Made to Stock</fullName>
+                <default>false</default>
+                <label>Made to Stock</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

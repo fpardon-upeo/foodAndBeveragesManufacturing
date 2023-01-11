@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner</fullName>
+    <active>true</active>
+    <label>Partner</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alusense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Additional_Surcharges_on_Invoice__c</picklist>
+        <values>
+            <fullName>ATA carnet %28for fairs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificate of origin %28digital or paper%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicaat COO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eur1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euro pallets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euromed document %28for Israel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extra Copy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FITO certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legalisation of documents %2F Apostille on certificaat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAQS certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registration certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US pallets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISA %28COO stamp%29 andere doc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISA %28COO stamp%29 invoice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>Convenience Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horeca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speciality Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesaler</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Tariff_Classification__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discount_Type__c</picklist>
+        <values>
+            <fullName>Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of Year Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Discount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EDI_Customer__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Platform_Customer__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>INCO_Terms__c</picklist>
+        <values>
+            <fullName>Af magazijn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Af schip geleverd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Afhalen op locatie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIF - Cost Ins and Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco aan boord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco af kade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco excl%2E rechten</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco grens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco incl%2E rechten</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco langszij schip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco vanaf 250%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco vanaf 350%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franco vanaf 500%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geleverd op bestemming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kosten en vracht</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kosten%2C verzekering en vracht</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEVERING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vrachtvrij incl%2E verzekering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vrachtvrij tot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vrachtvrij tot vervoerder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Market__c</picklist>
+        <values>
+            <fullName>B2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Home</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Method_of_Business_Product__c</picklist>
+        <values>
+            <fullName>Made to Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Made to Stock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Minimum_Order_Quantity__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Terms__c</picklist>
+        <values>
+            <fullName>1%2C5%25 discount within 30 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%25 Prepay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%25 prepayment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%25 discount within 30 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%25 discount within 45 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 prepayment %2F balance before delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 discount within 15 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 discount within 15 days invoice date %2F 60 days without discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 discount within 60 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 days %28prepaid via reversed factoring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 days end of month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30%25 upon order %2F balance 30 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%25 prepayment %2F balance 2 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%25 prepayment %2F balance 30 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 days invoice date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90%25 prepayment 10%25 after arrival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95%25 prepayment 5%25 after arrival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of invoice month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free of charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>domiciliatie</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>Beans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belmio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belmoca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Label</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Route_to_Market__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shelf_Life__c</picklist>
+        <values>
+            <fullName>%2B%2F- 16 Months Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 Months</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>24 Months After Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guarantee Base 2%2F3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Channel__c</picklist>
+        <values>
+            <fullName>Bakery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C-Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash %26 Carry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Chains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Vending Operators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-line Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-line Market Place</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petrol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roasters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supermarket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tax_Area__c</picklist>
+        <values>
+            <fullName>Klanten%2Fleveranciers %28EU%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Klanten%2Fleveranciers %28binnenland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Klanten%2Fleveranciers %28niet EU%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vrijgesteld van BTW</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Zone__c</picklist>
+        <values>
+            <fullName>UTC %2B%2F- 0%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B01%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B02%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B03%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B03%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B04%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B04%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B05%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B05%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B05%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B06%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B06%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B07%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B08%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B08%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B09%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B09%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B10%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B10%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B11%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B12%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B12%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B13%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC %2B14%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -01%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -02%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -03%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -03%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -04%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -05%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -06%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -07%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -08%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -09%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -09%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -10%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -11%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC -12%3A00</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

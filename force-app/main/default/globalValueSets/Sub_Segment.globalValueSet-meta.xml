@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Supermarket</fullName>
+        <default>false</default>
+        <label>Supermarket</label>
+    </customValue>
+    <customValue>
+        <fullName>On-line Food</fullName>
+        <default>false</default>
+        <label>On-line Food</label>
+    </customValue>
+    <customValue>
+        <fullName>On-line Market Place</fullName>
+        <default>false</default>
+        <label>On-line Market Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Department Stores</fullName>
+        <default>false</default>
+        <label>Department Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>Electro</fullName>
+        <default>false</default>
+        <label>Electro</label>
+    </customValue>
+    <customValue>
+        <fullName>C-Stores</fullName>
+        <default>false</default>
+        <label>C-Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>Petrol</fullName>
+        <default>false</default>
+        <label>Petrol</label>
+    </customValue>
+    <customValue>
+        <fullName>Bakery</fullName>
+        <default>false</default>
+        <label>Bakery</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotels</fullName>
+        <default>false</default>
+        <label>Hotels</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Chains</fullName>
+        <default>false</default>
+        <label>Coffee Chains</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash &amp; Carry</fullName>
+        <default>false</default>
+        <label>Cash &amp; Carry</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Vending Operators</fullName>
+        <default>false</default>
+        <label>Coffee Vending Operators</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Supplier</fullName>
+        <default>false</default>
+        <label>Office Supplier</label>
+    </customValue>
+    <customValue>
+        <fullName>Roasters</fullName>
+        <default>false</default>
+        <label>Roasters</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Brands</fullName>
+        <default>false</default>
+        <label>Coffee Brands</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributors</fullName>
+        <default>false</default>
+        <label>Distributors</label>
+    </customValue>
+    <masterLabel>Sub Segment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

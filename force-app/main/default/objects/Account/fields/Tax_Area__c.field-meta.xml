@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Tax Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Klanten/leveranciers (niet EU)</fullName>
+                <default>false</default>
+                <label>Klanten/leveranciers (niet EU)</label>
+            </value>
+            <value>
+                <fullName>Klanten/leveranciers (binnenland)</fullName>
+                <default>false</default>
+                <label>Klanten/leveranciers (binnenland)</label>
+            </value>
+            <value>
+                <fullName>Klanten/leveranciers (EU)</fullName>
+                <default>false</default>
+                <label>Klanten/leveranciers (EU)</label>
+            </value>
+            <value>
+                <fullName>Vrijgesteld van BTW</fullName>
+                <default>false</default>
+                <label>Vrijgesteld van BTW</label>
+            </value>
+            <value>
+                <fullName>Intercompany (btw-eenheid)</fullName>
+                <default>false</default>
+                <label>Intercompany (btw-eenheid)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

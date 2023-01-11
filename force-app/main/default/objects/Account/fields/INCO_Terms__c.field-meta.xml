@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INCO_Terms__c</fullName>
+    <externalId>false</externalId>
+    <label>INCO Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CIF - Cost Ins and Freight</fullName>
+                <default>false</default>
+                <label>CIF - Cost Ins and Freight</label>
+            </value>
+            <value>
+                <fullName>Afhalen op locatie</fullName>
+                <default>false</default>
+                <label>Afhalen op locatie</label>
+            </value>
+            <value>
+                <fullName>Kosten en vracht</fullName>
+                <default>false</default>
+                <label>Kosten en vracht</label>
+            </value>
+            <value>
+                <fullName>Kosten, verzekering en vracht</fullName>
+                <default>false</default>
+                <label>Kosten, verzekering en vracht</label>
+            </value>
+            <value>
+                <fullName>Vrachtvrij incl. verzekering</fullName>
+                <default>false</default>
+                <label>Vrachtvrij incl. verzekering</label>
+            </value>
+            <value>
+                <fullName>Vrachtvrij tot</fullName>
+                <default>false</default>
+                <label>Vrachtvrij tot</label>
+            </value>
+            <value>
+                <fullName>Franco grens</fullName>
+                <default>false</default>
+                <label>Franco grens</label>
+            </value>
+            <value>
+                <fullName>Geleverd op bestemming</fullName>
+                <default>false</default>
+                <label>Geleverd op bestemming</label>
+            </value>
+            <value>
+                <fullName>Franco incl. rechten</fullName>
+                <default>false</default>
+                <label>Franco incl. rechten</label>
+            </value>
+            <value>
+                <fullName>Franco excl. rechten</fullName>
+                <default>false</default>
+                <label>Franco excl. rechten</label>
+            </value>
+            <value>
+                <fullName>Franco af kade</fullName>
+                <default>false</default>
+                <label>Franco af kade</label>
+            </value>
+            <value>
+                <fullName>Af schip geleverd</fullName>
+                <default>false</default>
+                <label>Af schip geleverd</label>
+            </value>
+            <value>
+                <fullName>Af magazijn</fullName>
+                <default>false</default>
+                <label>Af magazijn</label>
+            </value>
+            <value>
+                <fullName>Franco langszij schip</fullName>
+                <default>false</default>
+                <label>Franco langszij schip</label>
+            </value>
+            <value>
+                <fullName>Vrachtvrij tot vervoerder</fullName>
+                <default>false</default>
+                <label>Vrachtvrij tot vervoerder</label>
+            </value>
+            <value>
+                <fullName>Franco aan boord</fullName>
+                <default>false</default>
+                <label>Franco aan boord</label>
+            </value>
+            <value>
+                <fullName>LEVERING</fullName>
+                <default>false</default>
+                <label>LEVERING</label>
+            </value>
+            <value>
+                <fullName>Franco</fullName>
+                <default>false</default>
+                <label>Franco</label>
+            </value>
+            <value>
+                <fullName>Franco vanaf 250€</fullName>
+                <default>false</default>
+                <label>Franco vanaf 250€</label>
+            </value>
+            <value>
+                <fullName>Franco vanaf 350€</fullName>
+                <default>false</default>
+                <label>Franco vanaf 350€</label>
+            </value>
+            <value>
+                <fullName>Franco vanaf 500€</fullName>
+                <default>false</default>
+                <label>Franco vanaf 500€</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>FCA Londerzeel</fullName>
+                <default>false</default>
+                <label>FCA Londerzeel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
